@@ -35,6 +35,5 @@ export class SpotifyService {
     this.spotifyApi?.setAccessToken(token)
 
     localStorage.setItem('token', token)
-    this.spotifyApi?.skipToNext()
   }
 }
